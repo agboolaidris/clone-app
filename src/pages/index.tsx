@@ -1,7 +1,5 @@
 import { ReactElement } from 'react';
-import { Button } from '@ui/buttons';
 import { PropertyCard, PropertyCardProps } from '@ui/property-card';
-import { ScrollTabs } from '@ui/scroll-tabs';
 import Head from 'next/head';
 import { Layout } from 'src/layouts';
 

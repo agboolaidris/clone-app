@@ -47,7 +47,7 @@ export const ScrollTabs = () => {
               className={classNames(
                 'mx-auto block w-max whitespace-nowrap border-b-2  py-4 px-1 text-center text-sm font-medium',
                 {
-                  'border-indigo-500 text-indigo-600': tab.current,
+                  'border-rose-500 text-rose-600': tab.current,
                   'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700':
                     !tab.current,
                 }

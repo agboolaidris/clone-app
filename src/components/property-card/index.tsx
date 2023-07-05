@@ -77,7 +77,7 @@ export const PropertyCard = ({
             `dot-container${id}`
           )}
         ></div>
-        <button className="absolute top-0 right-0 z-20 flex h-8 w-8 items-center  justify-center rounded-bl-md bg-indigo-600 text-white hover:bg-indigo-700">
+        <button className="absolute top-0 right-0 z-20 flex h-8 w-8 items-center  justify-center rounded-bl-md bg-rose-600 text-white hover:bg-rose-700">
           <HiOutlineHeart className="h-5 w-5" />
         </button>
         <button

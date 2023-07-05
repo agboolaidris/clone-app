@@ -245,11 +245,6 @@ const Home: NextPageWithLayout = () => {
         <link href="/favicon.ico" rel="icon" />
       </Head>
       <main className="mx-auto max-w-7xl px-4 xl:px-0">
-        <div className="border-t">
-          <div className="mx-auto max-w-7xl px-6">
-            <ScrollTabs />
-          </div>
-        </div>
         <div className="bg-white">
           <div className="mx-auto max-w-2xl px-4 sm:px-6  lg:max-w-7xl lg:px-8">
             <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">

@@ -4,8 +4,6 @@ import type { AppProps } from 'next/app';
 
 import '../styles/index.css';
 import 'glider-js/glider.min.css';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode;

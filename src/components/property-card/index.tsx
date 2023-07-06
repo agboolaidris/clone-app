@@ -27,7 +27,6 @@ export type PropertyCardProps = {
 
 export const PropertyCard = ({
   href,
-
   name,
   images,
   id,
@@ -48,7 +47,7 @@ export const PropertyCard = ({
               next: '#CatalogueCardNext' + id,
               prev: '#CatalogueCardPrev' + id,
             }}
-            className="!h-full [&>.glider-track]:!h-full"
+            className="!h-full  [&>.glider-track]:!h-full"
             dots={'.dot-container' + id}
             duration={5}
             hasArrows
@@ -57,7 +56,10 @@ export const PropertyCard = ({
             slidesToShow={1}
           >
             {images.map((image, imgIdx) => (
-              <div className="relative h-full w-full" key={imgIdx}>
+              <div
+                className="relative h-full w-full overflow-hidden"
+                key={imgIdx}
+              >
                 <Image
                   alt={image.imageAlt}
                   className="h-full w-full"

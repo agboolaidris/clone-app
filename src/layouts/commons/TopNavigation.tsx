@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { HiSearch } from 'react-icons/hi';
+import { HiSearch, HiUserCircle } from 'react-icons/hi';
 import {
   HiOutlineAdjustmentsHorizontal,
   HiOutlineBars3,
@@ -10,13 +10,6 @@ import { Button } from '@ui/buttons';
 import { IconButton } from '@ui/icon-button';
 import classNames from 'classnames';
 import Image from 'next/image';
-
-const user = {
-  email: 'tom@example.com',
-  imageUrl:
-    'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  name: 'Tom Cook',
-};
 
 const userNavigation = [
   { href: '#', name: 'Your Profile' },
@@ -94,16 +87,10 @@ export const TopNavigation = () => {
             {/* Profile dropdown */}
             <Menu as="div" className="relative flex-shrink-0">
               <div>
-                <Menu.Button className="flex items-center gap-x-2 rounded-full border bg-white p-2 hover:bg-gray-100 focus:outline-none">
+                <Menu.Button className="flex items-center gap-x-2 rounded-full border bg-white p-2 text-gray-500 hover:bg-gray-100 focus:outline-none">
                   <span className="sr-only">Open user menu</span>
                   <HiOutlineBars3 />
-                  <Image
-                    alt=""
-                    className="h-6 w-6 rounded-full"
-                    height={10}
-                    src={user.imageUrl}
-                    width={10}
-                  />
+                  <HiUserCircle className="h-6 w-6" />
                 </Menu.Button>
               </div>
               <Transition

@@ -1,39 +1,10 @@
 import { ReactElement } from 'react';
-import { PropertyCard, PropertyCardProps } from '@ui/property-card';
+import { PropertyCard } from '@ui/property-card';
 import Head from 'next/head';
 import { Layout } from 'src/layouts';
+import { properties } from 'src/lib/properties';
 
 import { NextPageWithLayout } from './_app';
-
-const property: PropertyCardProps[] = [
-  {
-    date: 'July 12 - 18',
-    description: 'Mountain and ocean view',
-    href: '#',
-
-    id: 1,
-    images: [
-      {
-        imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1730&q=80',
-      },
-      {
-        imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1774&q=80',
-      },
-      {
-        imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1730&q=80',
-      },
-    ],
-    name: 'Basic Tee',
-    price: '$35',
-    star: '4.0',
-  },
-];
 
 const Home: NextPageWithLayout = () => {
   return (
@@ -48,7 +19,7 @@ const Home: NextPageWithLayout = () => {
         <div className="bg-white">
           <div className="mx-auto max-w-7xl px-4 xl:px-0">
             <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-              {property.map((property, propertyIdx) => (
+              {properties.map((property, propertyIdx) => (
                 <PropertyCard key={propertyIdx} {...property} />
               ))}
             </div>

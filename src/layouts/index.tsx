@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import classNames from 'classnames';
-import { useScrollPosition } from 'src/hooks/useMousePosition';
+import { useScrollPosition } from 'src/hooks/useScrollPosition';
 import { categories } from 'src/lib/categories';
 
 import { BottomNavigation } from './commons/BottomNavigation';

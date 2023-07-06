@@ -20,7 +20,6 @@ export const Layout = ({ children }: Props) => {
           </div>
         </div>
       </div>
-
       <div className="mt-40">{children}</div>
       <BottomNavigation />
     </div>

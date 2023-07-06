@@ -12,26 +12,18 @@ type Props = {
 export const ScrollTabs = ({ tabs, href }: Props) => {
   const { query } = useRouter();
   return (
-    <div className="relative h-16 sm:px-10">
+    <div className="relative h-16 overflow-hidden sm:px-10">
       <Glider
         arrows={{
           next: '#buttonNext',
           prev: '#buttonPrev',
         }}
+        className="scroll-tab"
+        // exactWidth
         hasArrows
-        responsive={[
-          {
-            breakpoint: 775,
-            settings: {
-              duration: 0.25,
-              itemWidth: 60,
-              // slidesToScroll: 'auto',
-              //slidesToShow: 5,
-            },
-          },
-        ]}
-        slidesToScroll={3}
-        slidesToShow={10}
+        itemWidth={20}
+        slidesToScroll={1}
+        slidesToShow="auto"
       >
         {tabs.map((tab, tabIndex) => (
           <div className="" key={tabIndex}>

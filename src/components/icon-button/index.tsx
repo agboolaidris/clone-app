@@ -7,19 +7,19 @@ const iconButtonStyle = cva(
     defaultVariants: {
       rounded: true,
       size: 'sm',
-      variants: 'normal',
+      variants: 'primary',
     },
     variants: {
       rounded: {
         true: 'rounded-full',
       },
       size: {
-        md: 'p-3',
-        sm: 'p-2',
+        md: 'p-2',
+        sm: 'p-1',
       },
       variants: {
-        normal: 'text-gray-700 bg-gray-100 hover:opacity-70',
-        secondary: 'bg-white text-gray-900 hover:bg-gray-100',
+        normal: 'hover:opacity-70',
+        primary: 'text-gray-700 bg-gray-100 hover:opacity-70',
       },
     },
   }

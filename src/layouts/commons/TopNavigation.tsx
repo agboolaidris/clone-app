@@ -86,7 +86,7 @@ export const TopNavigation = () => {
             <Button rounded size="sm" variants="secondary">
               Airbnb your home
             </Button>
-            <IconButton type="button">
+            <IconButton size="md" type="button">
               <span className="sr-only">View notifications</span>
               <TbWorld />
             </IconButton>

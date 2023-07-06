@@ -5,11 +5,12 @@ import {
   HiOutlineChevronRight,
   HiOutlineHeart,
 } from 'react-icons/hi';
+import { HiMiniStar } from 'react-icons/hi2';
+import { IconButton } from '@ui/icon-button';
 import classNames from 'classnames';
 import Image from 'next/image';
 
 export type PropertyCardProps = {
-  color: string;
   href: string;
   id: number;
 
@@ -18,58 +19,56 @@ export type PropertyCardProps = {
     imageSrc: string;
   }[];
   name: string;
+  star: string;
+  description: string;
+  date: string;
   price: string;
 };
 
 export const PropertyCard = ({
   href,
-  color,
+
   name,
   images,
   id,
   price,
+  description,
+  date,
+  star,
 }: PropertyCardProps) => {
   return (
     <div className="group relative">
-      <div className="relative overflow-hidden rounded-md">
-        <div className="aspect-h-1 aspect-w-1 relative max-h-[20rem] w-full overflow-hidden  bg-gray-200  lg:aspect-none lg:h-80">
+      <div className="relative overflow-hidden rounded-lg">
+        <a
+          className="block aspect-[1/1] w-full overflow-hidden bg-gray-200 xl:h-80 [&>.glider-contain]:h-full"
+          href={href}
+        >
           <Glider
             arrows={{
               next: '#CatalogueCardNext' + id,
               prev: '#CatalogueCardPrev' + id,
             }}
-            className="z-20"
+            className="!h-full [&>.glider-track]:!h-full"
             dots={'.dot-container' + id}
-            duration={1000}
+            duration={5}
             hasArrows
             hasDots
-            responsive={[
-              {
-                breakpoint: 775,
-                settings: {
-                  duration: 0.25,
-                  itemWidth: 60,
-                  slidesToScroll: 1,
-                  slidesToShow: 1,
-                },
-              },
-            ]}
             slidesToScroll={1}
             slidesToShow={1}
           >
             {images.map((image, imgIdx) => (
-              <a href={href} key={imgIdx}>
+              <div className="relative h-full w-full" key={imgIdx}>
                 <Image
                   alt={image.imageAlt}
-                  className="h-full w-full object-cover object-center"
-                  height={200}
+                  className="h-full w-full"
+                  height={1000}
                   src={image.imageSrc}
-                  width={200}
+                  width={1000}
                 />
-              </a>
+              </div>
             ))}
           </Glider>
-        </div>
+        </a>
 
         <div
           className={classNames(
@@ -77,35 +76,42 @@ export const PropertyCard = ({
             `dot-container${id}`
           )}
         ></div>
-        <button className="absolute top-0 right-0 z-20 flex h-8 w-8 items-center  justify-center rounded-bl-md bg-rose-600 text-white hover:bg-rose-700">
-          <HiOutlineHeart className="h-5 w-5" />
-        </button>
-        <button
-          className="absolute top-1/2 left-1 z-20  hidden -translate-y-1/2 rounded-full border bg-gray-50  p-1 transition-all duration-75 hover:bg-gray-100 group-hover:block"
+        <IconButton
+          className="absolute top-0 right-0 z-20 mt-2 mr-2 text-gray-100"
+          variants="normal"
+        >
+          <HiOutlineHeart className="h-6 w-6" />
+        </IconButton>
+        <IconButton
+          className="absolute top-1/2 left-1 z-20  hidden -translate-y-1/2  group-hover:block"
           id={'CatalogueCardPrev' + id}
         >
           <HiOutlineChevronLeft className="h-4 w-4" />
-        </button>
+        </IconButton>
 
-        <button
-          className="absolute top-1/2 right-1 z-20 hidden -translate-y-1/2 rounded-full border bg-gray-50 p-1 transition-all duration-75 hover:bg-gray-100 group-hover:block"
+        <IconButton
+          className="absolute top-1/2 right-1 z-20 hidden -translate-y-1/2 group-hover:block"
           id={'CatalogueCardNext' + id}
         >
           <HiOutlineChevronRight className="h-4 w-4" />
-        </button>
+        </IconButton>
       </div>
 
       <div className="relative mt-4 flex justify-between">
-        <div>
-          <h3 className="text-sm text-gray-700">
+        <div className="ext-gray-500 text-sm text-gray-500">
+          <h3 className="text-sm font-medium text-gray-900">
             <a href={href}>
               <span aria-hidden="true" className="absolute inset-0 z-10" />
               {name}
             </a>
           </h3>
-          <p className="mt-1 text-sm text-gray-500">{color}</p>
+          <p>{description}</p>
+          <p className="">{date}</p>
+          <p className="mt-2 text-sm font-medium text-gray-900">{price}</p>
         </div>
-        <p className="text-sm font-medium text-gray-900">{price}</p>
+        <p className="flex h-max items-center gap-x-1 text-sm text-gray-900">
+          <HiMiniStar /> {star}
+        </p>
       </div>
     </div>
   );

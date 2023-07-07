@@ -1,7 +1,7 @@
 import { GiControlTower } from 'react-icons/gi';
 import { MdBathroom } from 'react-icons/md';
 
-export const categories = [
+export const filters = [
   {
     icon: <GiControlTower className="h-5 w-5" />,
     name: 'Tower',

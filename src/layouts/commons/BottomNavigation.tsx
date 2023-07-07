@@ -36,7 +36,7 @@ export const BottomNavigation = () => {
       leaveTo="opacity-0"
       show={true}
     >
-      <div className="mx-auto max-w-7xl py-4 px-4">
+      <div className="wrapper py-4">
         <div className="hidden items-center text-xs lg:flex">
           <div className="flex flex-1 items-center gap-x-2   text-gray-700">
             <p>© 2023 Airbnb, Inc.</p>

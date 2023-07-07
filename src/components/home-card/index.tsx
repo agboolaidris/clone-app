@@ -11,7 +11,7 @@ import { IconButton } from '@ui/icon-button';
 import classNames from 'classnames';
 import Image from 'next/image';
 
-export type PropertyCardProps = {
+export type HomeCardProps = {
   href: string;
   id: string;
 
@@ -20,26 +20,26 @@ export type PropertyCardProps = {
     imageSrc: string;
   }[];
   name: string;
-  star: string;
-  description: string;
+  rating: string;
+  host: string;
   date: string;
-  price: string;
+  cost: string;
   isFavorite?: boolean;
   addToFavorite: (id: string) => void;
 };
 
-export const PropertyCard = ({
+export const HomeCard = ({
   href,
   name,
   images,
   id,
-  price,
-  description,
+  cost,
+  host,
   date,
-  star,
+  rating,
   isFavorite,
   addToFavorite,
-}: PropertyCardProps) => {
+}: HomeCardProps) => {
   const [activeSlide, setActiveSlide] = useState(0);
   return (
     <div className="group relative">
@@ -124,12 +124,12 @@ export const PropertyCard = ({
               {name}
             </a>
           </h3>
-          <p>{description}</p>
+          <p>{host}</p>
           <p className="">{date}</p>
-          <p className="mt-2 text-sm font-medium text-gray-900">{price}</p>
+          <p className="mt-2 text-sm font-medium text-gray-900">{cost}</p>
         </div>
         <p className="flex h-max items-center gap-x-1 text-sm text-gray-900">
-          <HiMiniStar /> {star}
+          <HiMiniStar /> {rating}
         </p>
       </div>
     </div>

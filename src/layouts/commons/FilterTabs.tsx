@@ -9,8 +9,9 @@ type Props = {
   href: string;
 };
 
-export const ScrollTabs = ({ tabs, href }: Props) => {
+export const FilterTabs = ({ tabs, href }: Props) => {
   const { query } = useRouter();
+
   return (
     <div className="relative h-16 overflow-hidden sm:px-10">
       <Glider
@@ -19,16 +20,14 @@ export const ScrollTabs = ({ tabs, href }: Props) => {
           prev: '#buttonPrev',
         }}
         className="scroll-tab"
-        // exactWidth
         hasArrows
         itemWidth={20}
-        slidesToScroll={1}
+        slidesToScroll={3}
         slidesToShow="auto"
       >
         {tabs.map((tab, tabIndex) => (
           <div className="" key={tabIndex}>
             <Link
-              //aria-current={query.tab === tab.slug ? 'page' : undefined}
               className={classNames(
                 'mx-auto block w-max  whitespace-nowrap border-b-2 py-2  px-1 text-center text-xs font-medium',
                 {

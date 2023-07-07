@@ -20,7 +20,7 @@ const userNavigation = [
 export const TopNavigation = () => {
   return (
     <div className="relative  z-50 sm:border-b">
-      <div className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
+      <div className="wrapper">
         <div className="relative flex h-20 justify-between">
           <div className="relative z-10 hidden px-2 lg:flex lg:px-0 ">
             <div className="flex flex-shrink-0 items-center">
@@ -33,6 +33,7 @@ export const TopNavigation = () => {
               />
             </div>
           </div>
+
           <div className="relative z-0 flex flex-1 items-center justify-center px-2 sm:absolute sm:inset-0">
             <div className="w-full  sm:max-w-sm">
               <div className="mx-auto hidden h-12  w-max items-center overflow-hidden  rounded-full border shadow lg:flex">

@@ -18,7 +18,7 @@ const buttonStyle = cva(
         sm: 'py-2 px-4 text-sm',
       },
       variants: {
-        primary: 'bg-rose-600 hover:bg-rose-700 text-white',
+        primary: 'bg-gray-800 hover:bg-gray-700 text-white',
         secondary: 'text-gray-900 hover:bg-gray-100',
       },
     },

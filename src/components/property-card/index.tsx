@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Glider from 'react-glider';
 import {
+  HiHeart,
   HiOutlineChevronLeft,
   HiOutlineChevronRight,
   HiOutlineHeart,
@@ -12,7 +13,7 @@ import Image from 'next/image';
 
 export type PropertyCardProps = {
   href: string;
-  id: number;
+  id: string;
 
   images: {
     imageAlt: string;
@@ -23,6 +24,8 @@ export type PropertyCardProps = {
   description: string;
   date: string;
   price: string;
+  isFavorite?: boolean;
+  addToFavorite: (id: string) => void;
 };
 
 export const PropertyCard = ({
@@ -34,7 +37,10 @@ export const PropertyCard = ({
   description,
   date,
   star,
+  isFavorite,
+  addToFavorite,
 }: PropertyCardProps) => {
+  const [activeSlide, setActiveSlide] = useState(0);
   return (
     <div className="group relative">
       <div className="relative overflow-hidden rounded-lg">
@@ -52,14 +58,12 @@ export const PropertyCard = ({
             duration={5}
             hasArrows
             hasDots
+            onSlideVisible={(e) => setActiveSlide(e.detail.slide)}
+            scrollLock
             slidesToScroll={1}
-            slidesToShow={1}
           >
             {images.map((image, imgIdx) => (
-              <div
-                className="relative h-full w-full overflow-hidden"
-                key={imgIdx}
-              >
+              <div className="h-full w-full overflow-hidden" key={imgIdx}>
                 <Image
                   alt={image.imageAlt}
                   className="h-full w-full"
@@ -79,20 +83,33 @@ export const PropertyCard = ({
           )}
         ></div>
         <IconButton
-          className="absolute top-0 right-0 z-20 mt-2 mr-2 text-gray-100"
+          className={classNames(
+            'absolute top-0 right-0 z-20 mt-2 mr-2 text-gray-100'
+          )}
+          onClick={() => addToFavorite(id)}
           variants="normal"
         >
-          <HiOutlineHeart className="h-6 w-6" />
+          {isFavorite ? (
+            <HiHeart className="h-6 w-6 text-rose-600" />
+          ) : (
+            <HiOutlineHeart className="h-6 w-6" />
+          )}
         </IconButton>
         <IconButton
-          className="absolute top-1/2 left-1 z-20  hidden -translate-y-1/2  group-hover:block"
+          className={classNames(
+            'absolute top-1/2 left-1 z-20  hidden -translate-y-1/2  ',
+            { 'group-hover:block': activeSlide > 0 }
+          )}
           id={'CatalogueCardPrev' + id}
         >
           <HiOutlineChevronLeft className="h-4 w-4" />
         </IconButton>
 
         <IconButton
-          className="absolute top-1/2 right-1 z-20 hidden -translate-y-1/2 group-hover:block"
+          className={classNames(
+            'absolute top-1/2 right-1 z-20 hidden -translate-y-1/2 ',
+            { 'group-hover:block': activeSlide !== images.length - 1 }
+          )}
           id={'CatalogueCardNext' + id}
         >
           <HiOutlineChevronRight className="h-4 w-4" />

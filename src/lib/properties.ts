@@ -1,12 +1,10 @@
-import { PropertyCardProps } from '@ui/property-card';
-
-export const properties: PropertyCardProps[] = [
+export const properties = [
   {
     date: 'July 12 - 18',
     description: 'Mountain and ocean view',
     href: '#',
 
-    id: 1,
+    id: '1',
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -33,7 +31,7 @@ export const properties: PropertyCardProps[] = [
     description: 'Mountain and ocean view',
     href: '#',
 
-    id: 2,
+    id: '2',
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -55,7 +53,7 @@ export const properties: PropertyCardProps[] = [
     description: 'Mountain and ocean view',
     href: '#',
 
-    id: 3,
+    id: '3',
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -82,7 +80,7 @@ export const properties: PropertyCardProps[] = [
     description: 'Mountain and ocean view',
     href: '#',
 
-    id: 4,
+    id: '4',
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -104,7 +102,7 @@ export const properties: PropertyCardProps[] = [
     description: 'Mountain and ocean view',
     href: '#',
 
-    id: 5,
+    id: '5',
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -131,7 +129,7 @@ export const properties: PropertyCardProps[] = [
     description: 'Mountain and ocean view',
     href: '#',
 
-    id: 6,
+    id: '6',
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -158,7 +156,7 @@ export const properties: PropertyCardProps[] = [
     description: 'Mountain and ocean view',
     href: '#',
 
-    id: 7,
+    id: '7',
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -180,7 +178,7 @@ export const properties: PropertyCardProps[] = [
     description: 'Mountain and ocean view',
     href: '#',
 
-    id: 8,
+    id: '8',
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -207,7 +205,7 @@ export const properties: PropertyCardProps[] = [
     description: 'Mountain and ocean view',
     href: '#',
 
-    id: 9,
+    id: '9',
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -234,7 +232,7 @@ export const properties: PropertyCardProps[] = [
     description: 'Mountain and ocean view',
     href: '#',
 
-    id: 10,
+    id: '10',
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -256,7 +254,7 @@ export const properties: PropertyCardProps[] = [
     description: 'Mountain and ocean view',
     href: '#',
 
-    id: 11,
+    id: '11',
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -283,7 +281,7 @@ export const properties: PropertyCardProps[] = [
     description: 'Mountain and ocean view',
     href: '#',
 
-    id: 12,
+    id: '12',
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",

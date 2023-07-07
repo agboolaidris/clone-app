@@ -1,4 +1,4 @@
-import { ReactElement } from 'react';
+import { ReactElement, useState } from 'react';
 import { PropertyCard } from '@ui/property-card';
 import Head from 'next/head';
 import { Layout } from 'src/layouts';
@@ -7,6 +7,16 @@ import { properties } from 'src/lib/properties';
 import { NextPageWithLayout } from './_app';
 
 const Home: NextPageWithLayout = () => {
+  const [wishList, setWishList] = useState<string[]>([]);
+  const handleAddToFavorite = (id: string) => {
+    setWishList((prev) => {
+      if (!prev.includes(id)) {
+        return prev.concat(id);
+      }
+
+      return prev.filter((p) => p !== id);
+    });
+  };
   return (
     <>
       <Head>
@@ -19,9 +29,16 @@ const Home: NextPageWithLayout = () => {
         <div className="bg-white">
           <div className="mx-auto max-w-7xl px-4 xl:px-0">
             <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-              {properties.map((property, propertyIdx) => (
-                <PropertyCard key={propertyIdx} {...property} />
-              ))}
+              {properties.map((property, propertyIdx) => {
+                return (
+                  <PropertyCard
+                    key={propertyIdx}
+                    {...property}
+                    addToFavorite={handleAddToFavorite}
+                    isFavorite={wishList.indexOf(property.id) !== -1}
+                  />
+                );
+              })}
             </div>
           </div>
         </div>

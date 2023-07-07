@@ -1,23 +1,26 @@
+import { HiSearch } from 'react-icons/hi';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 
-import { Button } from './index';
+import { IconButton } from './index';
 
 export default {
   argTypes: {
     size: { control: 'color' },
   },
   args: {
-    children: 'Submit',
+    children: <HiSearch />,
     onClick: () => alert(),
   },
-  component: Button,
+  component: IconButton,
   parameters: {
     layout: 'fullscreen',
   },
-  title: 'Button',
-} as ComponentMeta<typeof Button>;
+  title: 'IconButton',
+} as ComponentMeta<typeof IconButton>;
 
-const Template: ComponentStory<typeof Button> = (arg) => <Button {...arg} />;
+const Template: ComponentStory<typeof IconButton> = (arg) => (
+  <IconButton {...arg} />
+);
 
 export const primary = Template.bind({});
 
@@ -28,6 +31,5 @@ primary.args = {
 
 export const Secondary = Template.bind({});
 primary.args = {
-  size: 'md',
-  variants: 'secondary',
+  variants: 'normal',
 };

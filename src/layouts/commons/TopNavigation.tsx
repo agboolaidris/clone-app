@@ -36,16 +36,24 @@ export const TopNavigation = () => {
           <div className="relative z-0 flex flex-1 items-center justify-center px-2 sm:absolute sm:inset-0">
             <div className="w-full  sm:max-w-sm">
               <div className="mx-auto hidden h-12  w-max items-center overflow-hidden  rounded-full border shadow lg:flex">
-                <Button size="sm" variants="secondary">
+                <Button
+                  className="hover:!bg-transparent"
+                  size="sm"
+                  variants="secondary"
+                >
                   Any where
                 </Button>
                 <div className="mx-1 h-3/4 w-[1px] bg-gray-200 py-1" />
-                <Button size="sm" variants="secondary">
+                <Button
+                  className="hover:!bg-transparent"
+                  size="sm"
+                  variants="secondary"
+                >
                   Any week
                 </Button>
                 <div className="mx-1 h-3/4 w-[1px] bg-gray-200 py-1" />
                 <Button
-                  className="!flex items-center !text-gray-500"
+                  className="!flex items-center !text-gray-500 hover:!bg-transparent"
                   size="sm"
                   variants="secondary"
                 >

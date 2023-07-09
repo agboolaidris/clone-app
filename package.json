@@ -5,10 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "preexport": "npm run build",
-    "export": "next export",
-    "prestart": "npm run export",
-    "start": "serve out",
+    "start": "next start",
     "lint": "tsc && next lint && prettier --check ./**/*.{ts,tsx}",
     "lint:fix": "eslint --fix . && prettier --write .",
     "clean": "rm -rf build node_modules",

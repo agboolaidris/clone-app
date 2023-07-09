@@ -33,7 +33,7 @@ export const FilterTabs = ({ tabs, href }: Props) => {
           <div className="" data-test="tab" key={tabIndex}>
             <Link
               className={classNames(
-                'mx-auto block w-max  whitespace-nowrap border-b-2 py-2  px-1 text-center text-xs font-medium',
+                'mx-auto block w-max  whitespace-nowrap border-b-2 px-1  py-2 text-center text-xs font-medium',
                 {
                   'border-gray-800 text-gray-800': query.tab === tab.slug,
                   'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700':
@@ -51,7 +51,7 @@ export const FilterTabs = ({ tabs, href }: Props) => {
       </Glider>
 
       <button
-        className="absolute top-1/4 left-0 hidden rounded-full border bg-gray-50 p-1 transition-all duration-75 hover:bg-gray-100 sm:block"
+        className="absolute left-0 top-1/4 hidden rounded-full border bg-gray-50 p-1 transition-all duration-75 hover:bg-gray-100 sm:block"
         data-test="button-prev"
         id="buttonPrev"
       >
@@ -59,7 +59,7 @@ export const FilterTabs = ({ tabs, href }: Props) => {
       </button>
 
       <button
-        className="absolute top-1/4 right-0 hidden rounded-full border bg-gray-50 p-1 transition-all duration-75 hover:bg-gray-100 sm:block"
+        className="absolute right-0 top-1/4 hidden rounded-full border bg-gray-50 p-1 transition-all duration-75 hover:bg-gray-100 sm:block"
         data-test="button-next"
         id="buttonNext"
       >

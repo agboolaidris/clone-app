@@ -35,7 +35,7 @@ export const Layout = ({ children }: Props) => {
         </div>
       </div>
 
-      <div className="mt-40 mb-20">{children}</div>
+      <div className="mb-20 mt-40">{children}</div>
 
       <BottomNavigation />
     </div>

@@ -87,7 +87,7 @@ export const HomeCard = ({
         ></div>
         <IconButton
           className={classNames(
-            'absolute top-0 right-0 z-20 mt-2 mr-2 text-gray-100',
+            'absolute right-0 top-0 z-20 mr-2 mt-2 text-gray-100',
             {
               'text-rose-600': isFavorite,
             }
@@ -104,7 +104,7 @@ export const HomeCard = ({
         </IconButton>
         <IconButton
           className={classNames(
-            'absolute top-1/2 left-1 z-20  hidden -translate-y-1/2  ',
+            'absolute left-1 top-1/2 z-20  hidden -translate-y-1/2  ',
             { 'group-hover:block': activeSlide > 0 }
           )}
           data-test="home-card-prev-button"
@@ -115,7 +115,7 @@ export const HomeCard = ({
 
         <IconButton
           className={classNames(
-            'absolute top-1/2 right-1 z-20 hidden -translate-y-1/2 ',
+            'absolute right-1 top-1/2 z-20 hidden -translate-y-1/2 ',
             { 'group-hover:block': activeSlide !== images.length - 1 }
           )}
           data-test="home-card-next-button"

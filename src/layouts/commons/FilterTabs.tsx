@@ -1,3 +1,4 @@
+import React from 'react';
 import Glider from 'react-glider';
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from 'react-icons/hi';
 import classNames from 'classnames';
@@ -13,11 +14,14 @@ export const FilterTabs = ({ tabs, href }: Props) => {
   const { query } = useRouter();
 
   return (
-    <div className="relative h-16 overflow-hidden sm:px-10">
+    <div
+      className="relative h-16 overflow-hidden sm:px-10"
+      data-test="filter-tabs"
+    >
       <Glider
         arrows={{
-          next: '#buttonNext',
-          prev: '#buttonPrev',
+          next: '[data-test="button-next"]',
+          prev: '[data-test="button-prev"]',
         }}
         className="scroll-tab"
         hasArrows
@@ -26,7 +30,7 @@ export const FilterTabs = ({ tabs, href }: Props) => {
         slidesToShow="auto"
       >
         {tabs.map((tab, tabIndex) => (
-          <div className="" key={tabIndex}>
+          <div className="" data-test="tab" key={tabIndex}>
             <Link
               className={classNames(
                 'mx-auto block w-max  whitespace-nowrap border-b-2 py-2  px-1 text-center text-xs font-medium',
@@ -36,6 +40,7 @@ export const FilterTabs = ({ tabs, href }: Props) => {
                     query.tab !== tab.slug,
                 }
               )}
+              data-test="tab-link"
               href={href + `?tab=${tab.slug}`}
             >
               <div className="mx-auto mb-2 w-max">{tab.icon}</div>
@@ -47,6 +52,7 @@ export const FilterTabs = ({ tabs, href }: Props) => {
 
       <button
         className="absolute top-1/4 left-0 hidden rounded-full border bg-gray-50 p-1 transition-all duration-75 hover:bg-gray-100 sm:block"
+        data-test="button-prev"
         id="buttonPrev"
       >
         <HiOutlineChevronLeft className="h-4 w-4" />
@@ -54,6 +60,7 @@ export const FilterTabs = ({ tabs, href }: Props) => {
 
       <button
         className="absolute top-1/4 right-0 hidden rounded-full border bg-gray-50 p-1 transition-all duration-75 hover:bg-gray-100 sm:block"
+        data-test="button-next"
         id="buttonNext"
       >
         <HiOutlineChevronRight className="h-4 w-4" />

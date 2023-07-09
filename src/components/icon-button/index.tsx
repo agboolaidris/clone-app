@@ -25,7 +25,7 @@ const iconButtonStyle = cva(
   }
 );
 
-type Props = VariantProps<typeof iconButtonStyle> &
+export type IconButtonProps = VariantProps<typeof iconButtonStyle> &
   DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>;
 
 export const IconButton = ({
@@ -35,7 +35,7 @@ export const IconButton = ({
   children,
   rounded,
   ...rest
-}: Props) => {
+}: IconButtonProps) => {
   const style = iconButtonStyle({ className, rounded, size, variants });
   return (
     <button className={style} {...rest}>

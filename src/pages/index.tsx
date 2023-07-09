@@ -38,7 +38,7 @@ const Home: NextPageWithLayout = () => {
                   <HomeCard
                     key={homeIdx}
                     {...home}
-                    addToFavorite={handleAddToFavorite}
+                    addToFavorite={() => handleAddToFavorite(home.id)}
                     isFavorite={wishList.indexOf(home.id) !== -1}
                   />
                 );

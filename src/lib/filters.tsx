@@ -55,3 +55,8 @@ export const filters = [
     slug: 'national-parks',
   },
 ];
+
+export const test_filters = filters.map((filter) => ({
+  ...filter,
+  icon: null,
+}));

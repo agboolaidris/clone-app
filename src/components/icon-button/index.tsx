@@ -2,7 +2,7 @@ import React, { ButtonHTMLAttributes, DetailedHTMLProps } from 'react';
 import { cva, VariantProps } from 'class-variance-authority';
 
 const iconButtonStyle = cva(
-  'inline-block rounded-md border border-transparent text-center font-medium transition-all duration-100',
+  'inline-block border border-transparent text-center font-medium transition-all duration-100',
   {
     defaultVariants: {
       rounded: true,

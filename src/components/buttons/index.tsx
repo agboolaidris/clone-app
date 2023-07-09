@@ -11,7 +11,7 @@ const buttonStyle = cva(
     },
     variants: {
       rounded: {
-        true: 'rounded-full',
+        true: '!rounded-full',
       },
       size: {
         md: 'px-8 py-3',

@@ -48,7 +48,7 @@ const Home: NextPageWithLayout = () => {
         </div>
 
         <div className="fixed left-1/2 bottom-0  z-30 mb-20 hidden -translate-x-1/2 lg:block">
-          <Button className="flex items-center gap-x-2 rounded-full px-3 text-sm">
+          <Button className="flex items-center gap-x-2  px-3 text-sm" rounded>
             Show Map <HiMap />
           </Button>
         </div>

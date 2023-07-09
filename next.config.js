@@ -4,6 +4,7 @@ const nextConfig = {
     domains: ['tailwindui.com', 'images.unsplash.com'],
   },
   reactStrictMode: true,
+  webpack5: true,
 };
 
 module.exports = nextConfig;

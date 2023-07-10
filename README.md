@@ -1,6 +1,6 @@
 # Next TailwindCSS Boilerplate
 
-Boilerplate for Nextjs and TailwindCSS with some advance fixtures
+Airbnb clone with Next.js
 
 ##### Steps to run this project:
 
@@ -12,6 +12,4 @@ Boilerplate for Nextjs and TailwindCSS with some advance fixtures
 1. Next
 2. Typescript
 3. TailwindCSS
-4. class-variance-authority
-5. Classnames
-6. Story-book
+4. cypress

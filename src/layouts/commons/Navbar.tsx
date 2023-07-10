@@ -17,7 +17,7 @@ const userNavigation = [
   { href: '#', name: 'Sign out' },
 ];
 
-export const TopNavigation = () => {
+export const Navbar = () => {
   return (
     <div className="relative  z-50 sm:border-b">
       <div className="wrapper">

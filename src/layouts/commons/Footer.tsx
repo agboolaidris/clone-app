@@ -25,7 +25,7 @@ const mobileTabs = [
   { icon: <HiOutlineUserCircle className="h-5 w-5" />, label: 'Login' },
 ];
 
-export const BottomNavigation = () => {
+export const Footer = () => {
   return (
     <Transition
       className="fixed bottom-0 left-0 z-50 w-full border-t bg-white"

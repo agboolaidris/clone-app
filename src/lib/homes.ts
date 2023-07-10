@@ -24,7 +24,7 @@ export const homes = [
     rating: '4.0',
   },
   {
-    cost: '$350',
+    cost: '$2000',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -64,7 +64,7 @@ export const homes = [
     rating: '5.0',
   },
   {
-    cost: '$35',
+    cost: '$100',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -84,7 +84,7 @@ export const homes = [
     rating: '4.39',
   },
   {
-    cost: '$35',
+    cost: '$120',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -108,7 +108,7 @@ export const homes = [
     rating: '3.9',
   },
   {
-    cost: '$35',
+    cost: '$30',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -132,7 +132,7 @@ export const homes = [
     rating: '4.7',
   },
   {
-    cost: '$35',
+    cost: '$650',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -156,7 +156,7 @@ export const homes = [
     rating: '4.0',
   },
   {
-    cost: '$35',
+    cost: '$20',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -180,7 +180,7 @@ export const homes = [
     rating: '3.0',
   },
   {
-    cost: '$35',
+    cost: '$208',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -200,7 +200,7 @@ export const homes = [
     rating: '4.2',
   },
   {
-    cost: '$35',
+    cost: '$108',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -220,7 +220,7 @@ export const homes = [
     rating: '5.0',
   },
   {
-    cost: '$35',
+    cost: '$101',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 

@@ -12,6 +12,7 @@ const leftLinks = [
   { href: '#', label: 'Your Privacy Choices' },
   { href: '#', label: 'Destinations' },
 ];
+
 const rightLinks = [
   { icon: <TbWorld />, label: 'English (US)' },
   { icon: <PiCurrencyDollar />, label: 'USD' },

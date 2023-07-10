@@ -9,18 +9,15 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1730&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -36,13 +33,11 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -58,18 +53,11 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
-      },
-      {
-        imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -85,13 +73,11 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -107,18 +93,15 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1598228723793-52759bba239c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -134,18 +117,15 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1575517111478-7f6afd0973db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -161,13 +141,15 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1560026301-88340cf16be7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
+      },
+      {
+        imageAlt: "Front of men's Basic Tee in black.",
+        imageSrc: '/houses/1.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -183,18 +165,15 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1571939228382-b2f2b585ce15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -210,18 +189,11 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1730&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
-      },
-      {
-        imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -237,13 +209,11 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -259,18 +229,11 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
-      },
-      {
-        imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -286,13 +249,15 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc:
-          'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        imageSrc: '/houses/1.jpg',
+      },
+      {
+        imageAlt: "Front of men's Basic Tee in black.",
+        imageSrc: '/houses/1.jpg',
       },
     ],
     name: 'Basic Tee',

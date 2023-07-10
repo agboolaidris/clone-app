@@ -13,18 +13,18 @@ export const homes = [
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/2.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/3.jpg',
       },
     ],
     name: 'Basic Tee',
     rating: '4.0',
   },
   {
-    cost: '$35',
+    cost: '$2000',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -33,18 +33,18 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/4.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/5.jpg',
       },
     ],
     name: 'Basic Tee',
     rating: '4.2',
   },
   {
-    cost: '$35',
+    cost: '$104k',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -53,7 +53,7 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/6.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -64,7 +64,7 @@ export const homes = [
     rating: '5.0',
   },
   {
-    cost: '$35',
+    cost: '$100',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -73,18 +73,18 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/2.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/3.jpg',
       },
     ],
     name: 'Basic Tee',
     rating: '4.39',
   },
   {
-    cost: '$35',
+    cost: '$120',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -93,22 +93,22 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/4.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/5.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/6.jpg',
       },
     ],
     name: 'Basic Tee',
     rating: '3.9',
   },
   {
-    cost: '$35',
+    cost: '$30',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -117,7 +117,7 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/2.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -125,14 +125,14 @@ export const homes = [
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/3.jpg',
       },
     ],
     name: 'Basic Tee',
     rating: '4.7',
   },
   {
-    cost: '$35',
+    cost: '$650',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -141,11 +141,11 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/4.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/5.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -156,7 +156,7 @@ export const homes = [
     rating: '4.0',
   },
   {
-    cost: '$35',
+    cost: '$20',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -165,7 +165,7 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/5.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -173,14 +173,14 @@ export const homes = [
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/6.jpg',
       },
     ],
     name: 'Basic Tee',
     rating: '3.0',
   },
   {
-    cost: '$35',
+    cost: '$208',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -189,18 +189,18 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/6.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/3.jpg',
       },
     ],
     name: 'Basic Tee',
     rating: '4.2',
   },
   {
-    cost: '$35',
+    cost: '$108',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -209,7 +209,7 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/4.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -220,7 +220,7 @@ export const homes = [
     rating: '5.0',
   },
   {
-    cost: '$35',
+    cost: '$101',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -233,7 +233,7 @@ export const homes = [
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/4.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -249,11 +249,11 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/3.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/2.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",

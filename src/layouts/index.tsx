@@ -5,9 +5,9 @@ import classNames from 'classnames';
 import { useScrollPosition } from 'src/hooks/useScrollPosition';
 import { filters } from 'src/lib/filters';
 
-import { BottomNavigation } from './commons/BottomNavigation';
 import { FilterTabs } from './commons/FilterTabs';
-import { TopNavigation } from './commons/TopNavigation';
+import { Footer } from './commons/Footer';
+import { Navbar } from './commons/Navbar';
 
 type Props = {
   children: ReactNode;
@@ -18,7 +18,7 @@ export const Layout = ({ children }: Props) => {
   return (
     <div>
       <div className="fixed top-0 z-50 w-full bg-white">
-        <TopNavigation />
+        <Navbar />
         <div className={classNames({ shadow: y > 100 })}>
           <div className="wrapper  flex items-center gap-x-6">
             <div className="flex-1">
@@ -37,7 +37,7 @@ export const Layout = ({ children }: Props) => {
 
       <div className="mb-20 mt-40">{children}</div>
 
-      <BottomNavigation />
+      <Footer />
     </div>
   );
 };

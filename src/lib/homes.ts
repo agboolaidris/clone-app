@@ -13,18 +13,18 @@ export const homes = [
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/2.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/3.jpg',
       },
     ],
     name: 'Basic Tee',
     rating: '4.0',
   },
   {
-    cost: '$35',
+    cost: '$350',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -33,18 +33,18 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/4.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/5.jpg',
       },
     ],
     name: 'Basic Tee',
     rating: '4.2',
   },
   {
-    cost: '$35',
+    cost: '$104k',
     date: 'July 12 - 18',
     host: 'Mountain and ocean view',
 
@@ -53,7 +53,7 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/6.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -73,11 +73,11 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/2.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/3.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -93,15 +93,15 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/4.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/5.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/6.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -117,7 +117,7 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/2.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -125,7 +125,7 @@ export const homes = [
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/3.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -141,11 +141,11 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/4.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/5.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -165,7 +165,7 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/5.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -173,7 +173,7 @@ export const homes = [
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/6.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -189,11 +189,11 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/6.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/3.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -209,7 +209,7 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/4.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
@@ -233,7 +233,7 @@ export const homes = [
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/4.jpg',
       },
     ],
     name: 'Basic Tee',
@@ -249,11 +249,11 @@ export const homes = [
     images: [
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/3.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
-        imageSrc: '/houses/1.jpg',
+        imageSrc: '/houses/2.jpg',
       },
       {
         imageAlt: "Front of men's Basic Tee in black.",
